@@ -1,4 +1,4 @@
-# prop24
+# prop21
 1. Organization of file/folder structure
 
 2. Naming conventions
