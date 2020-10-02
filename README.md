@@ -1,4 +1,4 @@
-# prop21
+# ALDUCHWE - Prop 21
 1. Organization of file/folder structure
 
 2. Naming conventions
@@ -14,6 +14,14 @@
 
 
 4. Definitions of acronyms, abbreviations
-
+	SF- San Francisco
+	SD- San Diego
+	SJ - San Jose
+	
 
 5. Contact
+	Christie Ngo: ccngo@ucdavis.edu
+	Dustin Nguyen: dusnguyen@ucdavis.edu
+	Alvin Tang: alqtang@ucdavis.edu
+	Wesley Tat: wrtat@ucdavis.edu
+	
