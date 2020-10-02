@@ -1,4 +1,4 @@
-# ALDUCHWE - Prop 21
+# ALDUCHWE - Prop 21: Predicting Homeless Population Based on Rent Control
 1. Organization of file/folder structure
 
 2. Naming conventions
