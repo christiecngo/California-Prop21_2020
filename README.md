@@ -1,4 +1,6 @@
 # ALDUCHWE - Prop 21: Predicting Homeless Population Based on Rent Control
+Training sklearn models to build 2 models (1 for a rent controlled city, 1 for for a city without rent control) with features -- median income, unemployment rate, crime numbers, and population count -- to predict homeless population of cities with similar policies. 
+
 1. Organization of file/folder structure
 
 2. Naming conventions
