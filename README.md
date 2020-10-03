@@ -11,21 +11,21 @@ Training sklearn models to build 2 models (1 for a rent controlled city, 1 for f
 	SD- San Diego
 	SJ - San Jose
 	POP - (city's) population
+	UNEMP - (city's) unemployment
 ##
 3. 
 
 Population measured in counts of people based on the U.S. Census Bureau. Unemployment rate of cities were chosen based on the unemployment percentage of cities on the 1st day of the first month for each year recorded. Crime numbers were measured as a crime recording made by city/police reports. There are discrepancies between whether the sources recorded number of actual crimes or the number of crimes simply reported. Median income is added as an average of median incomes for cities annually in U.S. dollars. 
 
-4. Script running instructions
-5. Method(s), standards or calibrations that were used
-6. Specialized software 
-7. Date dataset was last modified
-8. Example records for each data file (or file type)
-9. Contact information
+4. JupyterNotebook("datascienceprop21.py") can be ran on an external server for visualization of the model results and training code. Datasets can be downloaded as EXCEL files.
+
+5. Datasets were last modified on 20200927
+6. Example records for each data file (or file type)
+Relationship between files
 	
 
 ##
-5. Contact
+7. Contact
 	```
 	Christie Ngo: ccngo@ucdavis.edu
 	
