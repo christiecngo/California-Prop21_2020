@@ -14,14 +14,25 @@
 
 
 4. Definitions of acronyms, abbreviations
+	```
 	SF- San Francisco
+	```
 	SD- San Diego
+	```
 	SJ - San Jose
 	
 
 5. Contact
+```
 	Christie Ngo: ccngo@ucdavis.edu
+	
+	```
 	Dustin Nguyen: dusnguyen@ucdavis.edu
+	
+	```
 	Alvin Tang: alqtang@ucdavis.edu
+	
+	```
+	
 	Wesley Tat: wrtat@ucdavis.edu
 	
