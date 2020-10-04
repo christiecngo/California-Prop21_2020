@@ -52,10 +52,10 @@ City population numbers came from the Census Bureau:
 ### Median Income
 
 FRED Economic Data had estimated median income for each county that our selected cities were in:
-* [San Francisco](https://fred.stlouisfed.org/series/MHICA06075A052NCEN)
-* [San Diego](https://fred.stlouisfed.org/series/MHICA06073A052NCEN)
-* [San Jose](https://fred.stlouisfed.org/series/MHICA06085A052NCEN)
-* [Fresno](https://fred.stlouisfed.org/series/CAFRES9URN)
+* [San Francisco County](https://fred.stlouisfed.org/series/MHICA06075A052NCEN)
+* [San Diego County](https://fred.stlouisfed.org/series/MHICA06073A052NCEN)
+* [Santa Clara County](https://fred.stlouisfed.org/series/MHICA06085A052NCEN)
+* [Fresno County](https://fred.stlouisfed.org/series/CAFRES9URN)
 
 ## Contributing
 JupyterNotebook("datascienceprop21.py") can be ran on an external server for visualization of the model results and training code. Datasets can be downloaded as EXCEL files. Data collection is from 2005-2018, and additional variable features can easily be added to training dataframe. Code written for checking collinearity and OLS results are adaptable to additional independent variables as well. Any city chosen with data for each feature can be used to predict the homeless population using the models.
