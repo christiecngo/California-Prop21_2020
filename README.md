@@ -4,12 +4,14 @@ Training sklearn models to build 2 models (1 for a rent controlled city, 1 for f
 ## Layout
 Datasets of each feature for the 4 featured cities are collected within the "data" branch. All other files, including modeling and visualization code, are found in the master branch.
 
-## Abbreviations used within datasets
+## Abbreviations/Conventions
 	SF- San Francisco
 	SD- San Diego
 	SJ - San Jose
 	POP - (city's) population
 	UNEMP - (city's) unemployment
+
+* Dataset files for each city should include the abbreviated city's name in title.
 
 ## Data Sources
 Datasets were last modified on 20200927. All files are in the formats: [.CSV, .xlsx, and .py]
@@ -30,12 +32,30 @@ For years [2010-2018](http://www.sjpd.org/crimestats/annual_crimestats.html), re
 * [Fresno Crime Statistics](https://www.macrotrends.net/cities/us/ca/fresno/crime-rate-statistics) from macrotrends show Fresno crimes per 100,000 people. Total crime was calculated using Fresno's population each year. 
 
 
-
 ### Unemployment Rate
+FRED Economic Data published the unemployment rate for counties that the cities are in:
+
+* [San Francisco County](https://fred.stlouisfed.org/series/CASANF0URN)
+* [San Diego County](https://fred.stlouisfed.org/series/CASAND5URN)
+* [Santa Clara County]
+* [Fresno County]
+
 
 ### City Population
+City population numbers came from the Census Bureau:
+
+* [San Francisco](https://www.census.gov/quickfacts/fact/table/sanfranciscocitycalifornia,US/PST045219)
+* [San Diego](https://www.census.gov/quickfacts/fact/table/sandiegocitycalifornia,US/PST045219)
+* [San Jose](https://www.census.gov/quickfacts/fact/table/sanjosecitycalifornia,US/PST045219)
+* [Fresno](https://www.census.gov/quickfacts/fact/table/fresnocitycalifornia,US/PST045219)
 
 ### Median Income
+
+FRED Economic Data had estimated median income for each city by year:
+* [San Francisco](https://fred.stlouisfed.org/series/MHICA06075A052NCEN)
+* [San Diego](https://fred.stlouisfed.org/series/MHICA06073A052NCEN)
+* [San Jose]()
+* [Fresno](https://fred.stlouisfed.org/series/CAFRES9URN)
 
 ## Contributing
 JupyterNotebook("datascienceprop21.py") can be ran on an external server for visualization of the model results and training code. Datasets can be downloaded as EXCEL files. Data collection is from 2005-2018, and additional variable features can easily be added to training dataframe. Code written for checking collinearity and OLS results are adaptable to additional independent variables as well. Any city chosen with data for each feature can be used to predict the homeless population using the models.
