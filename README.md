@@ -37,8 +37,8 @@ FRED Economic Data published the unemployment rate for counties that the cities 
 
 * [San Francisco County](https://fred.stlouisfed.org/series/CASANF0URN)
 * [San Diego County](https://fred.stlouisfed.org/series/CASAND5URN)
-* [Santa Clara County]
-* [Fresno County]
+* [Santa Clara County](https://fred.stlouisfed.org/series/CASANT5URN)
+* [Fresno County](https://fred.stlouisfed.org/series/CAFRES9URN)
 
 
 ### City Population
@@ -51,10 +51,10 @@ City population numbers came from the Census Bureau:
 
 ### Median Income
 
-FRED Economic Data had estimated median income for each city by year:
+FRED Economic Data had estimated median income for each county that our selected cities were in:
 * [San Francisco](https://fred.stlouisfed.org/series/MHICA06075A052NCEN)
 * [San Diego](https://fred.stlouisfed.org/series/MHICA06073A052NCEN)
-* [San Jose]()
+* [San Jose](https://fred.stlouisfed.org/series/MHICA06085A052NCEN)
 * [Fresno](https://fred.stlouisfed.org/series/CAFRES9URN)
 
 ## Contributing
