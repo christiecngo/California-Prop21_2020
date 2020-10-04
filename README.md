@@ -23,11 +23,11 @@ All homeless numbers were determined by PIT counts for each CoC published by the
 ### Crime Numbers
 Different crime sources were used for each city chosen. 
 
--[Data SF](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry) provided numbers of crimes reported for SF from 2005-2018 in two different sets.
--[San Diego's Government Website](https://www.sandiego.gov/sites/default/files/crime-actuals1950-2019.pdf) listed actual total number of crimes for years within the last several decades.
--[Santa Clara's Government Report on Crime Trends in California](https://www.sccgov.org/sites/da/prosecution/DistrictAttorneyDepartments/Documents/CSU%20Reports/10-Year%20Combined%20CA%20Crime%20Stat%20Report.pdf) shows the number of each type of crime in San Jose over the decade 2006-2017. Total number of crimes were summed up using EXCEl (total homicide + total aggravated assault + total vehicle theft + burglary (residence) + burglary (Non-residence) + total robberies + larceny) for years 2005-2009.
+* [Data SF](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry) provided numbers of crimes reported for SF from 2005-2018 in two different sets.
+* [San Diego's Government Website](https://www.sandiego.gov/sites/default/files/crime-actuals1950-2019.pdf) listed actual total number of crimes for years within the last several decades.
+* [Santa Clara's Government Report on Crime Trends in California](https://www.sccgov.org/sites/da/prosecution/DistrictAttorneyDepartments/Documents/CSU%20Reports/10-Year%20Combined%20CA%20Crime%20Stat%20Report.pdf) shows the number of each type of crime in San Jose over the decade 2006-2017. Total number of crimes were summed up using EXCEl (total homicide + total aggravated assault + total vehicle theft + burglary (residence) + burglary (Non-residence) + total robberies + larceny) for years 2005-2009.
 For years [2010-2018](http://www.sjpd.org/crimestats/annual_crimestats.html), reports from the SJ Police Department was used.
--[Fresno Crime Statistics](https://www.macrotrends.net/cities/us/ca/fresno/crime-rate-statistics) from macrotrends show Fresno crimes per 100,000 people. Total crime was calculated using Fresno's population each year. 
+* [Fresno Crime Statistics](https://www.macrotrends.net/cities/us/ca/fresno/crime-rate-statistics) from macrotrends show Fresno crimes per 100,000 people. Total crime was calculated using Fresno's population each year. 
 
 
 
