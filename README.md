@@ -56,7 +56,7 @@ FRED Economic Data had estimated median income for each county that our selected
 * [San Diego County](https://fred.stlouisfed.org/series/MHICA06073A052NCEN)
 * [Fresno County](https://fred.stlouisfed.org/series/CAFRES9URN)
 
-* [San Jose](https://www.deptofnumbers.com/income/california/san-jose/) had data for the city itself
+* [San Jose](https://www.deptofnumbers.com/income/california/san-jose/) had data for the city itself on Department of Numbers website.
 
 ## Contributing
 JupyterNotebook("datascienceprop21.py") can be ran on an external server for visualization of the model results and training code. Datasets can be downloaded as EXCEL files. Data collection is from 2005-2018, and additional variable features can easily be added to training dataframe. Code written for checking collinearity and OLS results are adaptable to additional independent variables as well. Any city chosen with data for each feature can be used to predict the homeless population using the models.
