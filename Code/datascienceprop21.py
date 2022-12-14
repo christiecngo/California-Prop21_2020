@@ -23,7 +23,7 @@ import io
 
 
 # a personal access token used to access CSV from private GitHub repo
-username = 'christiecngo'
+username = 'USER'
 token = 'SECRET KEY'
 github_session = requests.Session()
 github_session.auth = (username, token)
