@@ -24,11 +24,11 @@ import io
 
 # a personal access token used to access CSV from private GitHub repo
 username = 'christiecngo'
-token = '5d8f328a166fa215b26ce44be820468924d3cbb0'
+token = 'SECRET KEY'
 github_session = requests.Session()
 github_session.auth = (username, token)
 
-url = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/datachallenge-crime.csv?token=ARABRMAEAIML6MXFTNDASLS7NK5AC" 
+url = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/datachallenge-crime.csv?token=SECRET KEY" 
 download = github_session.get(url).content
 
 # crime csv read into pandas
@@ -38,7 +38,7 @@ crime_numbers = pd.read_csv(io.StringIO(download.decode('utf-8')))
 # In[4]:
 
 
-url2 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/datachallenge-homelessness.csv?token=ARABRMGKQG3KQWJHIIEME427NK5F2"
+url2 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/datachallenge-homelessness.csv?token=SECRET KEY"
 download2 = github_session.get(url2).content
 
 homeless_numbers = pd.read_csv(io.StringIO(download2.decode('utf-8')))
@@ -63,12 +63,12 @@ sf_population = pd.read_excel("datachallenge-populationSF.xlsx")
 # In[7]:
 
 
-url4 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/SF%20MEDIAN%20INCOME%20csv.csv?token=ARABRMC5P3T3AM6QATHE4OS7NK7J6"
+url4 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/SF%20MEDIAN%20INCOME%20csv.csv?token=SECRET KEY"
 download4 = github_session.get(url4).content
 
 sf_income = pd.read_csv(io.StringIO(download4.decode('utf-8')))
 
-url5 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/sd%20median%20income%20csv.csv?token=ARABRMC5XS7IGHU6LD7DSLK7NK7PW"
+url5 = "https://raw.githubusercontent.com/ALDUCHWE/prop21/master/sd%20median%20income%20csv.csv?token=SECRET KEY"
 download5 = github_session.get(url5).content
 
 sd_income = pd.read_csv(io.StringIO(download5.decode('utf-8')))
